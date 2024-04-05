@@ -14,7 +14,7 @@ def myfiltfilt(b, a, input_signal):
     return fft.ifft(Y).real
 
 # Read .wav file 
-input_signal, fs = sf.read('Meghana_M.wav') 
+input_signal, fs = sf.read('Meghana.wav') 
 print(len(input_signal))
 np.savetxt("in.txt", input_signal)
 

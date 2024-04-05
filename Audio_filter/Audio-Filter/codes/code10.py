@@ -4,14 +4,14 @@ from scipy import signal
 import numpy as np
 
 #read .wav file 
-input_signal, fs = sf.read('Meghana_M.wav') 
+input_signal, fs = sf.read('Meghana.wav') 
 
 #sampling frequency of Input signal
 sampl_freq = fs
 print(sampl_freq)
 
 #order of the filter
-order = 3
+order = 4
 
 #cutoff frquency 
 cutoff_freq = 1000.0  

@@ -4,7 +4,7 @@ from scipy import signal
 import soundfile as sf
 
 #read .wav file 
-input_signal,fs = sf.read('Meghana_M.wav') 
+input_signal,fs = sf.read('Meghana.wav') 
 
 #sampling frequency 
 sampl_freq=fs
